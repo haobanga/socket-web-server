@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO admin</title>
+</head>
+<body>
+    <h1>Admin</h1>
+    <form action="/admin/user/update" method="post">
+        <input type="text" name="id" placeholder="要修改的用户id" />
+        <input type="text" name="password" placeholder="修改的密码">
+        <input type="submit" value="修改">
+    </form>
+    {% for user in users %}
+        <div>
+            id:{{ user.id }} username:{{ user.username }} pwd:{{ user.password }} role:{{ user.role }}
+        </div>
+    {% endfor %}
+</body>
+</html>

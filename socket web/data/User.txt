@@ -1,0 +1,20 @@
+[
+  {
+    "role": 1,
+    "id": 0,
+    "username": "hao",
+    "password": "f00b11ac242e937f8c480766d9b1c8da"
+  },
+  {
+    "role": 10,
+    "id": 1,
+    "username": "haohao",
+    "password": "72b13e06fecf7f56bbe1a88e51cde47a"
+  },
+  {
+    "role": 10,
+    "id": 2,
+    "username": "123",
+    "password": "f00b11ac242e937f8c480766d9b1c8da"
+  }
+]
